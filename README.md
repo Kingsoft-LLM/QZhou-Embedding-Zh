@@ -27,6 +27,11 @@ To build a more powerful and outstanding model, we have adopted proven approache
 <img src="assets/2.png" width="740" height="100"></img>
 </div>
 
+These are the ranking results on the CMTEB leaderboard (as of October 1st)：
+<div align="center">
+<img src="assets/5.png" width="740" height="280"></img>
+</div>
+
 ## ​Token Prepending
 ### Introduction
 ​Token Prepending is a simple yet effective technique proposed by Fu et al., the core idea is prepending each layer’s decoded sentence embedding to the beginning of the sentence in the next layer’s input, allowing earlier tokens to attend to the complete sentence information under the causal attention mechanism. TP technique is a plug-and-play technique neither introduces new parameters nor alters the existing ones, allowing it to be seamlessly integrated with various prompt-based sentence embedding methods and autoregressive LLMs. The architecture described in the original paper is as follows:
